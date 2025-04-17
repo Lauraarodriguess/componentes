@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes para sistemas automatizados em eletrônica</title>
+</head>
+<body>
+    <center>
+        <h1>Switch Case</h1>
+
+        <script>
+            //criar uma variavel para escolher a opção
+            var opcao = parseInt (prompt(`Selecione qual desses componentes você deseja aprender mais:
+            1- Relé
+            2- Sensor de proximidade
+            3- Controlador Lógico Programável (CLP)
+            4- Servomotor
+            5- Encoder
+            6- Fonte de alimentação`
+            ))
+
+            switch (opcao) {
+                case 1:
+                document.write ("Seu componente escolhido é: Relé")
+                break;
+                case 2:
+                document.write("Seu componente escolhido é: Sensor de proximidade")
+                break;
+                case 3:
+                document.write("Seu componente escolhido é: Controlador Lógico Programável (CLP)")
+                break;
+                case 4:
+                document.write("Seu componente escolhido é: Servomotor")
+                break;
+                case 5:
+                document.write("Seu componente escolhido é: Encoder")
+                break;
+                case 6:
+                document.write("Seu componente escolhido é: Fonte de alimentação")
+                break;
+                default:
+                document.write("Opção inválida!")
+            }
+        </script>
+    </center>
+</body>
+</html>
